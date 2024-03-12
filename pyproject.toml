@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "quiz2-bases-2"
+version = "0.1.0"
+description = ""
+authors = ["JersonPQ <prendes.2507@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pymongo = "^4.6.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
